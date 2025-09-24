@@ -11,7 +11,7 @@ spec:
     spec:
       # Spec fields that users can provide.
       name: string
-      image: string | default="demo:0.0.1"
+      image: string | default="maroki92/demo:0.0.1"
       replicas: integer | default=1 minimum=1 maximum=10
       ingress:
         enabled: boolean | default=false
