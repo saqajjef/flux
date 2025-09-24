@@ -48,9 +48,9 @@ spec:
                     value: "kubernetes"
                   - name: SERVER_PORT
                     value: "8080"
-                  envFrom:
-                  - configMapRef:
-                      name: spring-app-config
+                  #envFrom:
+                  #- configMapRef:
+                      #name: spring-app-config
                   resources:
                     requests:
                       memory: "512Mi"

@@ -4,13 +4,13 @@ metadata:
   name: saqajjef-apps
   namespace: flux-system
 spec:
-  interval: 30m0s
+  interval: 30s
   path: ./apps
   prune: true
-  retryInterval: 2m0s
+  retryInterval: 30s
   sourceRef:
     kind: GitRepository
     name: saqajjef-apps
   targetNamespace: default
-  timeout: 3m0s
+  timeout: 2m
   wait: true
