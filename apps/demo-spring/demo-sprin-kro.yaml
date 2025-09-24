@@ -1,7 +1,7 @@
 apiVersion: kro.run/v1alpha1
 kind: ResourceGraphDefinition
 metadata:
-  name: my-application
+  name: spring-app
 spec:
   # kro uses this simple schema to create your CRD schema and apply it
   # The schema defines what users can provide when they instantiate the RGD (create an instance).
@@ -29,7 +29,7 @@ spec:
         metadata:
           name: ${schema.spec.name} # Use the name provided by user
         spec:
-          replicas: 3
+          replicas: ${schema.spec.replicas} 
           selector:
             matchLabels:
               app: ${schema.spec.name}
