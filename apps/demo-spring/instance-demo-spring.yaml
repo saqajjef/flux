@@ -1,7 +1,7 @@
 apiVersion: kro.run/v1alpha1
 kind: Application
 metadata:
-  name: my-application-instance
+  name: my-application-instance-3
 spec:
   name: demo
   replicas: 3
