@@ -1,0 +1,9 @@
+apiVersion: kro.run/v1alpha1
+kind: Application
+metadata:
+  name: my-application-instance
+spec:
+  name: demo
+  replicas: 3
+  ingress:
+    enabled: false
