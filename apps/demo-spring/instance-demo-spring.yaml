@@ -4,7 +4,7 @@ metadata:
   name: my-application-instance-3
 spec:
   name: demo
-  image: maroki92/demo:0.0.1
+  image: maroki92/demo:131c9f5751e15e5842422e141a52d78bef77eba7
   replicas: 3
   ingress:
     enabled: false
