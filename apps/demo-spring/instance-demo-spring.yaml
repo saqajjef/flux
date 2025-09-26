@@ -4,7 +4,6 @@ metadata:
   name: my-application-instance-3
   annotations:
     jenkins-build: d449b5e7e31dba8a7e2561c58a3fec4b7b5f8808
-    jenkins-build: "<BUILD_TAG>"
 spec:
   name: demo
   image: maroki92/demo:d449b5e7e31dba8a7e2561c58a3fec4b7b5f8808
