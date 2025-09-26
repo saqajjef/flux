@@ -2,11 +2,6 @@ apiVersion: kro.run/v1alpha1
 kind: Application
 metadata:
   name: my-application-instance-3
-  annotations:
-    jenkins-build: dd8ebf79d19d382a898fd91d1213608c862d639a
-    jenkins-build: dd8ebf79d19d382a898fd91d1213608c862d639a
-    jenkins-build: dd8ebf79d19d382a898fd91d1213608c862d639a
-    jenkins-build: dd8ebf79d19d382a898fd91d1213608c862d639a
 spec:
   name: demo
   image: maroki92/demo:dd8ebf79d19d382a898fd91d1213608c862d639a
