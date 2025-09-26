@@ -5,6 +5,6 @@ metadata:
 spec:
   name: demo
   image: maroki92/demo:131c9f5751e15e5842422e141a52d78bef77eba7
-  replicas: 3
+  replicas: 1
   ingress:
     enabled: false
