@@ -2,6 +2,8 @@ apiVersion: kro.run/v1alpha1
 kind: Application
 metadata:
   name: my-application-instance-3
+  annotations:
+    jenkins-build: "<BUILD_TAG>"
 spec:
   name: demo
   image: maroki92/demo:131c9f5751e15e5842422e141a52d78bef77eba7
