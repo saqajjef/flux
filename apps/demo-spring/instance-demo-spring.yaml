@@ -3,12 +3,13 @@ kind: Application
 metadata:
   name: my-application-instance-3
   annotations:
+    jenkins-build: 4820549af40d032fa43851988ec2838d56cfbde3
     jenkins-build: e954480dd97a8d84c04749543f95bebaf11783a4
     jenkins-build: abb721df423f671750cbe7ecf1445f3fa8e8c061
     jenkins-build: d449b5e7e31dba8a7e2561c58a3fec4b7b5f8808
 spec:
   name: demo
-  image: maroki92/demo:e954480dd97a8d84c04749543f95bebaf11783a4
+  image: maroki92/demo:4820549af40d032fa43851988ec2838d56cfbde3
   replicas: 1
   ingress:
     enabled: false
